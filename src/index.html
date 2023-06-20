@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+      integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      h3{
+        margin-top: 30px;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+      .special {
+        font-weight: bold;
+      }
+      .highlighted {
+        color: red;
+      }
+    </style>
+  </head>
+  <body class="px-7">
+    <!-- 01  -->
+    <h3>01. Date Object:</h3>
+    <div id="getDate"></div>
+    <div id="getDate2"></div>
+
+    <!-- 02 -->
+    <h3>02. Math Object:</h3>
+    <div id="total"></div>
+
+    <!-- 03 -->
+    <h3>03. Numbers:</h3>
+    is 7 Prime Number: <span id="number"></span>
+
+    <!-- 04 -->
+    <h3>04. Window Object:</h3>
+    <button onclick="openNewWindow()">Click me to open Window</button>
+
+    <!-- 05 -->
+    <h3>05. Navigator Object:</h3>
+    <div id="browserName"></div>
+    <div id="browserVersion"></div>
+
+    <!-- 06 -->
+    <h3>06. Geolocation</h3>
+    <div id="lat"></div>
+    <div id="lon"></div>
+
+    <!-- 07 -->
+    <h3>07. JS Common Events:</h3>
+    <a href="./jsEvents.html"
+      ><button>Click hare to see js common event</button></a
+    >
+
+    <!-- 08 -->
+    <h3>08. HTML DOM Document:</h3>
+    <div>
+      <button id="myButton">Click Me</button>
+      <p id="myParagraph">This is a paragraph.</p>
+    </div>
+
+    <!-- 09 -->
+    <h3>09. JS DOM Working with Form Input</h3>
+    <a href="./form.html"><button>click hare to see form validation</button></a>
+
+    <!-- 10 -->
+    <h3>10. DOM Manipulate CSS Class</h3>
+
+    <button onclick="addHighlightClass()">Add Highlight Class</button>
+    <p id="myParagraph1">This is a paragraph.</p>
+
+    <!-- 11 -->
+    <h3>11. Create Element & Append Element:</h3>
+    <ul id="myList"></ul>
+
+    <!-- 12 -->
+    <h3>12. DOM Change Attribute Value:</h3>
+
+    <img id="myImage1" src="./img/img1.jpg" alt="Initial Image" width="520" />
+    <br />
+    <button onclick="changeImageSource()">Change Image Source</button>
+
+    <!-- 13 -->
+    <h3>13. DOM Query Selector:</h3>
+
+    <p>This is a regular paragraph.</p>
+    <p class="special">Lorem ipsum dolor sit, amet consectetur.</p>
+    <p class="special">Lorem ipsum dolor sit, amet consectetur.</p>
+    <p>This is a regular paragraph as well.</p>
+
+    <button onclick="changeTextColor()">Change Text Color</button>
+
+    <!-- scrips links -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/1_dateObject.js"></script>
+    <script src="js/2_mathObject.js"></script>
+    <script src="js/3_number.js"></script>
+    <script src="js/4_windowObject.js"></script>
+    <script src="js/5_navigatorObject.js"></script>
+    <script src="js/6_geoLocation.js"></script>
+    <script src="js/8_htmlDomElement.js"></script>
+    <script src="js/9_jsDomWorkinWithFormInput.js"></script>
+    <script src="js/10_domMenipulateCssClass.js"></script>
+    <script src="js/11_createElement_appendElement.js"></script>
+    <script src="js/12_domChangeAttribiuteValue.js"></script>
+    <script src="js/13_domQuerySelector.js"></script>
+    <script src="js/14_ajaxGetRequest.js"></script>
+    <script src="js/15_ajaxPutRequest.js"></script>
+  </body>
+</html>
